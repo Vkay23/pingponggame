@@ -36,9 +36,9 @@ namespace game
                 timer1.Enabled = false; MessageBox.Show("Score :  "+result.ToString()); 
                 result = 0; 
             }
-            if (picBall.Left + picBall.Width >= picRacket.Left &&     picBola.Left + picBola.Width 
+            if (picBall.Left + picBall.Width >= picRacket.Left &&     picBall.Left + picBall.Width 
                 <= picRacket.Left + picRacket.Width
-                && picBall.Top + picBall.Height >= picRacket.Top &&  picBola.Top + picBola.Height
+                && picBall.Top + picBall.Height >= picRacket.Top &&  picBola.Top + picBall.Height
                 <= picRacket.Top + picRacket.Height + picBall.Height)
             {
                 es = false;
